@@ -1,33 +1,55 @@
-/sports-talent-scout/
-│
-├── /assets/                  # Contains static files (images, videos, etc.)
-│   ├── /images/              # Image files (logos, athlete photos)
-│   ├── /videos/              # Video files (highlight reels, performance videos)
-│   └── /styles/              # CSS files for styling
-│
-├── /components/              # Reusable components (navigation, profile cards, etc.)
-│   ├── Navbar.html           # Header and navigation bar
-│   ├── AthleteCard.html      # Athlete profile card
-│   ├── SearchFilters.html    # Search filters for the scouting dashboard
-│   ├── MediaGallery.html     # Section for videos/photos
-│   └── PerformanceChart.html # Performance analytics chart
-│
-├── /pages/                   # Main pages (Athlete Profile, Scouting Dashboard, etc.)
-│   ├── Home.html             # Landing page
-│   ├── AthleteProfile.html   # Athlete profile page
-│   ├── ScoutingDashboard.html # Scouting dashboard
-│   ├── Competitions.html     # Competitions and challenges page
-│   ├── Scholarships.html     # Scholarships and training opportunities page
-│   ├── Community.html        # Community and mentorship page
-│   └── Contact.html          # Contact page
-│
-├── /scripts/                 # JavaScript files for functionality
-│   ├── app.js                # Main JS file for handling interactivity
-│   ├── search.js             # JavaScript for search functionality (filters, etc.)
-│   ├── profile.js            # JavaScript for managing athlete profiles
-│   ├── performance.js        # Handle performance analytics (e.g., AI video analysis)
-│   └── notifications.js      # SMS and in-app notification logic
-│
-├── index.html                # The main HTML file
-├── style.css                 # The main stylesheet (global styles)
-└── README.md                 # Project documentation
+my-new-app/
+├── README.md
+├── node_modules/                # Dependencies (auto-generated)
+├── public/
+│   └── index.html               # Main entry point for static HTML
+├── package.json                 # Project metadata and scripts
+├── package-lock.json            # Dependency tree lock
+├── assets/                      # Media and styles
+│   ├── images/                  # Image files
+│   ├── videos/                  # Video files
+│   └── styles/                  # CSS for pages and components
+│       ├── AthleteCard.css
+│       ├── AthleteProfile.css
+│       ├── Community.css
+│       ├── Competitions.css
+│       ├── Contact.css
+│       ├── Home.css
+│       ├── MediaGallery.css
+│       ├── PerformanceChart.css
+│       ├── Scholarships.css
+│       └── notifications.css
+├── components/                  # Static HTML components
+│   ├── AthleteCard.html
+│   ├── MediaGallery.html
+│   ├── Navbar.html
+│   └── PerformanceChart.html
+├── pages/                       # Static HTML pages
+│   ├── AthleteProfile.html
+│   ├── Community.html
+│   ├── Competitions.html
+│   ├── Contact.html
+│   ├── Home.html
+│   ├── Scholarships.html
+│   └── ScoutingDashboard.html
+├── src/                         # Main application source code
+│   ├── App.js                   # Main React app
+│   ├── App.css                  # Global styles
+│   ├── index.js                 # ReactDOM entry point
+│   ├── index.css                # Global CSS
+│   ├── setupTests.js            # Testing setup
+│   ├── reportWebVitals.js       # Performance monitoring
+│   └── components/              # React components
+│       ├── AthletheProfile.js
+│       ├── Community.js
+│       ├── Competitions.js
+│       ├── Contact.js
+│       ├── Home.js
+│       ├── MediaGallery.js
+│       ├── Navbar.css
+│       ├── Navbar.js
+│       ├── Notifications.js
+│       ├── PerformanceChart.js
+│       ├── Scholarships.js
+│       ├── ScoutingDashboard.js
+│       └── Search.js
