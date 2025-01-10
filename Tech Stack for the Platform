@@ -1,0 +1,5 @@
+Frontend: React Native (for mobile app) and React.js (for web app).
+Backend: Node.js or Django (for scalability and speed).
+Database: PostgreSQL for relational data and Amazon S3 for media storage.
+AI/ML Tools: TensorFlow or OpenCV for performance analytics from videos.
+Payment Gateway: Mobile Money integration (MTN, Orange Money).
