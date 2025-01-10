@@ -1,0 +1,33 @@
+/sports-talent-scout/
+│
+├── /assets/                  # Contains static files (images, videos, etc.)
+│   ├── /images/              # Image files (logos, athlete photos)
+│   ├── /videos/              # Video files (highlight reels, performance videos)
+│   └── /styles/              # CSS files for styling
+│
+├── /components/              # Reusable components (navigation, profile cards, etc.)
+│   ├── Navbar.html           # Header and navigation bar
+│   ├── AthleteCard.html      # Athlete profile card
+│   ├── SearchFilters.html    # Search filters for the scouting dashboard
+│   ├── MediaGallery.html     # Section for videos/photos
+│   └── PerformanceChart.html # Performance analytics chart
+│
+├── /pages/                   # Main pages (Athlete Profile, Scouting Dashboard, etc.)
+│   ├── Home.html             # Landing page
+│   ├── AthleteProfile.html   # Athlete profile page
+│   ├── ScoutingDashboard.html # Scouting dashboard
+│   ├── Competitions.html     # Competitions and challenges page
+│   ├── Scholarships.html     # Scholarships and training opportunities page
+│   ├── Community.html        # Community and mentorship page
+│   └── Contact.html          # Contact page
+│
+├── /scripts/                 # JavaScript files for functionality
+│   ├── app.js                # Main JS file for handling interactivity
+│   ├── search.js             # JavaScript for search functionality (filters, etc.)
+│   ├── profile.js            # JavaScript for managing athlete profiles
+│   ├── performance.js        # Handle performance analytics (e.g., AI video analysis)
+│   └── notifications.js      # SMS and in-app notification logic
+│
+├── index.html                # The main HTML file
+├── style.css                 # The main stylesheet (global styles)
+└── README.md                 # Project documentation
