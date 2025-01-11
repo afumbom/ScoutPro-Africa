@@ -1,0 +1,67 @@
+src/
+├── components/
+│   ├── Navbar/
+│   │   ├── Navbar.js
+│   │   ├── Navbar.css
+│   ├── Footer/
+│   │   ├── Footer.js
+│   │   ├── Footer.css
+│   ├── Homepage/
+│   │   ├── Home.js
+│   │   ├── Home.css
+│   ├── Auth/
+│   │   ├── Login.js
+│   │   ├── Signup.js
+│   │   ├── Auth.css
+│   ├── PlayerDashboard/
+│   │   ├── Community.js
+│   │   ├── Competitions.js
+│   │   ├── Scholarships.js
+│   │   ├── Notifications.js
+│   │   ├── AthleteProfile.js
+│   │   ├── PerformanceCharts.js
+│   │   ├── PlayerDashboard.css
+│   ├── ScoutDashboard/
+│   │   ├── SearchPlayers.js
+│   │   ├── ScoutingDashboard.js
+│   │   ├── Notifications.js
+│   │   ├── ScoutDashboard.css
+│   ├── AdminDashboard/
+│   │   ├── AdminHome.js           // Admin homepage with an overview of data
+│   │   ├── ManagePlayers.js       // Component to manage player data
+│   │   ├── ManageScouts.js        // Component to manage scout data
+│   │   ├── Reports.js             // Admin can view reports
+│   │   ├── AdminDashboard.css     // Styles specific to the admin dashboard
+│   ├── Shared/
+│   │   ├── ProfilePage.js
+│   │   ├── HelpCenter.js
+│   │   ├── Shared.css
+│   ├── SuccessStories/
+│   │   ├── SuccessStories.js
+│   │   ├── SuccessStories.css
+│
+├── pages/
+│   ├── HomePage.js
+│   ├── PlayerDashboardPage.js
+│   ├── ScoutDashboardPage.js
+│   ├── AdminDashboardPage.js       // Page for Admin Dashboard
+│   ├── AboutUsPage.js
+│   ├── ContactPage.js
+│   ├── NotFoundPage.js
+│
+├── routes/
+│   ├── AppRoutes.js
+│
+├── context/
+│   ├── AuthContext.js
+│   ├── PlayerContext.js
+│   ├── ScoutContext.js
+│   ├── AdminContext.js            // Context to manage admin-related data
+│
+├── utils/
+│   ├── api.js
+│   ├── helpers.js
+│
+├── App.js
+├── index.js
+├── App.css
